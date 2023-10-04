@@ -9,38 +9,44 @@
 	1.2- O que é GitHub:
 		É uma plataforma de programadores, onde irá ficar salvo seus repositórios com seus projetos.
 
-2- Comandos no Terminal:
+2- Comandos Básicos:
 	2.1- Commits:
 		São versões do seu código/projeto, com descrição.
 
-	2.2- Branch(ramificação):
-		São ramificações, onde sua versão master(principal) não é afetada. Ou seja, dá para trabalhar com a versão master sem perder seus dados. Normalmente utilizado em projeto em equipe. Por exemplo a equipe de design cria o CSS, o de conteúdo cria o HTML e o JavaScript, cada um separadamente, No final quando todos tiverem concluídos serão passados para a versão master onde ela irá juntar a versão dos 3 e criar somente a versão final.
-
-	2.3- git init:
+	2.2- git init:
 		Usado para iniciar um novo repositório no Git local na pasta atual.
 
-	2.4- git status:
+	2.3- git status:
 		Verifica o status atual do repositório, incluindo arquivos modificados e arquivos na área de stage.
 
-	2.5- git add:
+	2.4- git add:
 		Adiciona arquivos selecionados para a área de stage (Prepara o arquivo para ser commitado). Sintaxe: git add + nomeDoArquivo. EX: git add index.html
 
-	2.6- git add .:
+	2.5- git add .:
 		Adiciona todos os arquivos para a área de stage (Prepara todos os arquivos para serem commitados). Sintaxe: git add . . EX: git add .
 
-	2.7- git commit:
+	2.6- git commit:
 		Grava as alterações feitas na área de stage(com o comando git add). Sintaxe: git commit -m + descrição. EX: git commit -m "Criei o index"
 
-	2.8- Configurações globais:
-		2.8.1- git config --global user.email:
+	2.7- Configurações globais:
+		2.7.1- git config --global user.email:
 			Usado para sintonizar seu repositório com o email do GitHub. EX: git config --global user.email "claudiao@gmail.com"
 		
-		2.8.2- git config --global user.name:
+		2.7.2- git config --global user.name:
 			Usador para sintonizar seu repositório com seu nome de usuário do GitHub. EX: git config --global user.name "Claudio Santos".
 
-	2.9- git log:
+	2.8- git log:
 		Vê histórico de commits(versões).
 
 3- Gerenciamento de versões:
 	3.1- git checkout:
 		Volta para a versão anterior. Sintaxe: git checkout + ID. EX: git checkout e42678f699d7aeb5fb76e6027799b9b6dcd7c411
+
+	3.2- Branch(ramificação):
+		São ramificações, onde sua versão master(principal) não é afetada. Ou seja, dá para trabalhar com a versão master sem perder seus dados. Normalmente utilizado em projeto em equipe. Por exemplo a equipe de design cria o CSS, o de conteúdo cria o HTML e o JavaScript, cada um separadamente, No final quando todos tiverem concluídos serão passados para a versão master onde ela irá juntar a versão dos 3 e criar somente a versão final.
+
+	3.3- git checkout -b:
+		Cria uma branch(ramificação) na versão atual. Sintaxe: git checkout -b + nome. EX: git checkout -b somar
+
+	3.4- git branch:
+		Mostra todas as branch e qual você está localizado.
