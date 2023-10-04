@@ -1,0 +1,42 @@
+			Anotações GIT - Programação Web
+
+
+
+1- O que é Git e GitHub: 
+	1.1- O que é Git:
+		É um sistema que registra mudanças realizadas no código. Ou seja é um sistema de versionamento.
+
+	1.2- O que é GitHub:
+		É uma plataforma de programadores, onde irá ficar salvo seus repositórios com seus projetos.
+
+2- Comandos
+	2.1- Commits:
+		São versões do seu código/projeto, com descrição.
+
+	2.2- Branch(ramificação):
+		São ramificações, onde sua versão master(principal) não é afetada. Ou seja, dá para trabalhar com a versão master sem perder seus dados. Normalmente utilizado em projeto em equipe. Por exemplo a equipe de design cria o CSS, o de conteúdo cria o HTML e o JavaScript, cada um separadamente, No final quando todos tiverem concluídos serão passados para a versão master onde ela irá juntar a versão dos 3 e criar somente a versão final.
+
+	2.3- git init:
+		Usado para iniciar o git com um repositório.
+
+	2.4- git status:
+		Verifica o status do git.
+
+	2.5- git add:
+		Prepara o arquivo para ser commitado. Sintaxe: git add + nomeDoArquivo. EX: git add index.html
+
+	2.6- git commit:
+		Cria uma versão do código. Sintaxe: git commit -m + descrição. EX: git commit -m "Criei o index"
+
+	2.7- Configurações globais:
+		2.7.1- git config --global user.email:
+			Usado para sintonizar seu repositório com o email do GitHub. EX: git config --global user.email "claudiao@gmail.com"
+		
+		2.7.2- git config --global user.name:
+			Usador para sintonizar seu repositório com seu nome de usuário do GitHub. EX: git config --global user.name "Claudio Santos".
+
+	2.8- git log:
+		Vê todas as versões do commit.
+
+	2.9- git add .:
+		Prepara todos os arquivos para serem commitados. Sintaxe: git add . + nomeDoArquivo. EX:
