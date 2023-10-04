@@ -58,5 +58,15 @@
 	4.1- Enviar projeto para o GitHub:
 		(1) Acesse o site do GitHub e crie um novo repositório. (2) Após criar o repositório cole os comandos no terminal. OBS: na ordem que está
 
-	4.2- Enviar alterações para o repositório do git.
+	4.2- Enviar alterações para o repositório do git:
 		(1) Dê o comando git add . (2) Adicionar git commit -m "Descrição" (3) git push
+
+	4.3- Clonar um repositório:
+		(1) Crie uma pasta (2) Copie o local da pasta para o CMD com o comando cd. EX: cd C:\clone (3) Digite o seguinte comando no CMD: git clone + url (localizado na parte <code> do repositório). EX: git clone https://github.com/CristhianSilveira/GIT-ProgramacaoWEB.git
+
+	4.4- Trabalhar em equipe:
+		(1) Vá até o repositório da pessoa e clique em fork (2) Siga os passos de clonar um repositório (3) Crie uma branch com os seguintes comandos (já no terminal do VSCode): git checkout -b [nomeDaBranch]aula (4) de o comando git add . e o git commit -m "[descrição]" (5) Dê um push para o repositório do GitHub com o comando: git push origin [nome da branch]. (6) Aperte em pull request no repositório na página do GitHub para pedir autorização para colocar suas modificações no projeto original.
+			Exemplo Passo 2: git clone https://github.com/CristhianSilveira/GIT-ProgramacaoWEB.git
+			Exemplo Passo 3: git checkout -b aula
+			Exemplo Passo 4: git add .     git commit -m "Mudei as imagens"
+			Exemplo Passo 5: git push origin aula
