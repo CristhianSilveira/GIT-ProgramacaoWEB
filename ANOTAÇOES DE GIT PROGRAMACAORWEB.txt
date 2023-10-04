@@ -50,3 +50,6 @@
 
 	3.4- git branch:
 		Mostra todas as branch e qual você está localizado.
+
+	3.5- git merge:
+		Junta as branch, mas primeiro deve utilizar o comando git checkout master. EX: git merge somar
