@@ -40,7 +40,7 @@
 
 3- Gerenciamento de versões:
 	3.1- git checkout:
-		Volta para a versão anterior. Sintaxe: git checkout + ID. EX: git checkout e42678f699d7aeb5fb76e6027799b9b6dcd7c411
+		Volta para a versão anterior ou alternar entre branch. EX: git checkout e42678f699d7aeb5fb76e6027799b9b6dcd7c411 EX2: git checkout master
 
 	3.2- Branch(ramificação):
 		São ramificações, onde sua versão master(principal) não é afetada. Ou seja, dá para trabalhar com a versão master sem perder seus dados. Normalmente utilizado em projeto em equipe. Por exemplo a equipe de design cria o CSS, o de conteúdo cria o HTML e o JavaScript, cada um separadamente, No final quando todos tiverem concluídos serão passados para a versão master onde ela irá juntar a versão dos 3 e criar somente a versão final.
@@ -53,3 +53,10 @@
 
 	3.5- git merge:
 		Junta as branch, mas primeiro deve utilizar o comando git checkout master. EX: git merge somar
+
+4- Colaboração no GitHub:
+	4.1- Enviar projeto para o GitHub:
+		(1) Acesse o site do GitHub e crie um novo repositório. (2) Após criar o repositório cole os comandos no terminal. OBS: na ordem que está
+
+	4.2- Enviar alterações para o repositório do git.
+		(1) Dê o comando git add . (2) Adicionar git commit -m "Descrição" (3) git push
